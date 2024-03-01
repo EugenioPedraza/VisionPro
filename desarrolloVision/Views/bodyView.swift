@@ -1,20 +1,20 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-A single row to be displayed in a list of landmarks.
-*/
 
 import SwiftUI
 
-struct BodyRow: View {
+struct bodyView: View {
     var bodySystem: BodySystem
+    @State private var rotationAngle: CGFloat = 0
 
     var body: some View {
         ZStack{
             VStack(alignment: .center) {
-                SceneKitModelView(modelName: bodySystem.modelName)
+                SceneKitModelView(modelName: bodySystem.modelName, rotationAngle: rotationAngle)
                     .frame(width: 150, height: 150)
+                    .onTapGesture {
+                        withAnimation {
+                            rotationAngle += (.pi*2) * 10
+                        }
+                    }
             }
         }
         .padding()
@@ -25,6 +25,7 @@ struct BodyRow: View {
             .font(.system(size: 35))
     }
 }
+
 
 struct systemsMenu3D_Previews: PreviewProvider {
     static var previews: some View {
