@@ -18,7 +18,7 @@ struct BodyRow: View {
             }
         }
         .padding()
-        .glassBackgroundEffect()
+//        .glassBackgroundEffect()
         Text(bodySystem.name)
             .foregroundColor(.white)
             .fontWeight(.medium)
