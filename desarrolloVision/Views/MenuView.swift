@@ -54,7 +54,7 @@ struct MenuView: View {
         }
             .background()
             {
-                SceneKitModelView(modelName: "doctor.obj")
+                SceneKitModelView(modelName: "doctor.obj", rotationAngle: 0)
             }
         
         

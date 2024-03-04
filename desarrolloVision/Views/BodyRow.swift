@@ -9,25 +9,27 @@ import SwiftUI
 
 struct BodyRow: View {
     var bodySystem: BodySystem
+    @State private var rotationAngle: CGFloat = 0
 
     var body: some View {
-        ZStack{
             VStack(alignment: .center) {
-                SceneKitModelView(modelName: bodySystem.modelName)
-                    .frame(width: 150, height: 150)
+                SceneKitModelView(modelName: bodySystem.modelName, rotationAngle: rotationAngle)
+                    .frame(width: 200, height: 200)
+                    .onTapGesture {
+                        withAnimation(Animation.linear(duration: 2)) {
+                            rotationAngle += .pi * 2 // Rotate 360 degrees
+                        }
+                    }
+                
+                Text(bodySystem.name)
+                    .foregroundColor(.white)
+                    .fontWeight(.medium)
+                    .font(.system(size: 35))
+                    .multilineTextAlignment(.center)
             }
-        }
-        .padding()
-        .glassBackgroundEffect()
-        Text(bodySystem.name)
-            .foregroundColor(.white)
-            .fontWeight(.medium)
-            .font(.system(size: 35))
+            .padding()
+            .background(Color.clear)
+        .glassBackgroundEffect() // Assuming this is a custom modifier
     }
 }
 
-struct systemsMenu3D_Previews: PreviewProvider {
-    static var previews: some View {
-        systemsMenu3D(bodySystems: arrBodySystems[0])
-    }
-}

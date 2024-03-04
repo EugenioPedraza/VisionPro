@@ -10,7 +10,7 @@ import SwiftUI
 struct systemsMenu3D: View {
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
     var bodySystems: BodySystem
-    @State private var selectedAnatomy: BodySystem?
+    @State private var rotationAngle: CGFloat = 0
     
     var body: some View {
         
