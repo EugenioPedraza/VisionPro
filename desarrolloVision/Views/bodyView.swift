@@ -19,7 +19,6 @@ struct bodyView: View {
         }
         .padding()
         .glassBackgroundEffect()
-        Text(bodySystem.name)
             .foregroundColor(.white)
             .fontWeight(.medium)
             .font(.system(size: 35))
