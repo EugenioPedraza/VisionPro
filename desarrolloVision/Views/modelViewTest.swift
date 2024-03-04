@@ -8,7 +8,7 @@
 import SwiftUI
 import SceneKit
 
-// Struct for SceneKit view
+// Struct for SceneKit view 
 struct SceneKitModelView: UIViewRepresentable {
     typealias UIViewType = SCNView
     let modelName: String
