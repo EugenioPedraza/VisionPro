@@ -17,18 +17,19 @@
 		16D020402B8D0B4000CBDDF4 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0203E2B8D0B4000CBDDF4 /* ModelData.swift */; };
 		16D020412B8D0B4000CBDDF4 /* BodySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D0203F2B8D0B4000CBDDF4 /* BodySystem.swift */; };
 		16D020432B8D0B5100CBDDF4 /* bodySystemData.json in Resources */ = {isa = PBXBuildFile; fileRef = 16D020422B8D0B5100CBDDF4 /* bodySystemData.json */; };
-		16D020492B8D134C00CBDDF4 /* BodyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D020472B8D134C00CBDDF4 /* BodyRow.swift */; };
 		392B4DB52B902531006914C8 /* systemsMenu3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392B4DB42B902531006914C8 /* systemsMenu3D.swift */; };
 		39508F942B8E60820082316F /* anatomyscene.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 39508F932B8E60820082316F /* anatomyscene.usdz */; };
-		39552C362B90147100656788 /* modelViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39552C352B90147100656788 /* modelViewTest.swift */; };
+		39552C362B90147100656788 /* SceneKitModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39552C352B90147100656788 /* SceneKitModelView.swift */; };
+		396A4A6E2B9646A90095B684 /* BodyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A4A6D2B9646A90095B684 /* BodyRow.swift */; };
+		396A4A702B9647C10095B684 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A4A6F2B9647C00095B684 /* MenuView.swift */; };
+		396A4A722B9648DC0095B684 /* MenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A4A712B9648DC0095B684 /* MenuOptions.swift */; };
+		396A4A742B964B6A0095B684 /* doctor.obj in Resources */ = {isa = PBXBuildFile; fileRef = 396A4A732B964B6A0095B684 /* doctor.obj */; };
 		39B0F0062B9106B800FB93D6 /* bone.scn in Resources */ = {isa = PBXBuildFile; fileRef = 39B0F0052B9106B800FB93D6 /* bone.scn */; };
 		39B0F00B2B910B3B00FB93D6 /* lungs.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 39B0F00A2B910B3B00FB93D6 /* lungs.usdz */; };
 		39B0F00F2B910C2100FB93D6 /* heart.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 39B0F00E2B910C2100FB93D6 /* heart.usdz */; };
 		39B0F0112B910E7D00FB93D6 /* kidney.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 39B0F0102B910E7D00FB93D6 /* kidney.usdz */; };
 		39B0F0132B91166F00FB93D6 /* muscle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 39B0F0122B91166F00FB93D6 /* muscle.usdz */; };
 		39B0F0152B9116E600FB93D6 /* nerve_cell.scn in Resources */ = {isa = PBXBuildFile; fileRef = 39B0F0142B9116E600FB93D6 /* nerve_cell.scn */; };
-		DCFFB2542B92567700A46BEF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFFB2532B92567600A46BEF /* MenuView.swift */; };
-		DCFFB2562B92570900A46BEF /* MenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFFB2552B92570800A46BEF /* MenuOptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,18 +63,19 @@
 		16D0203E2B8D0B4000CBDDF4 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		16D0203F2B8D0B4000CBDDF4 /* BodySystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodySystem.swift; sourceTree = "<group>"; };
 		16D020422B8D0B5100CBDDF4 /* bodySystemData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bodySystemData.json; sourceTree = "<group>"; };
-		16D020472B8D134C00CBDDF4 /* BodyRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyRow.swift; sourceTree = "<group>"; };
 		392B4DB42B902531006914C8 /* systemsMenu3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = systemsMenu3D.swift; sourceTree = "<group>"; };
 		39508F932B8E60820082316F /* anatomyscene.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = anatomyscene.usdz; sourceTree = "<group>"; };
-		39552C352B90147100656788 /* modelViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelViewTest.swift; sourceTree = "<group>"; };
+		39552C352B90147100656788 /* SceneKitModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitModelView.swift; sourceTree = "<group>"; };
+		396A4A6D2B9646A90095B684 /* BodyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyRow.swift; sourceTree = "<group>"; };
+		396A4A6F2B9647C00095B684 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		396A4A712B9648DC0095B684 /* MenuOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuOptions.swift; sourceTree = "<group>"; };
+		396A4A732B964B6A0095B684 /* doctor.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doctor.obj; sourceTree = "<group>"; };
 		39B0F0052B9106B800FB93D6 /* bone.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bone.scn; sourceTree = "<group>"; };
 		39B0F00A2B910B3B00FB93D6 /* lungs.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = lungs.usdz; sourceTree = "<group>"; };
 		39B0F00E2B910C2100FB93D6 /* heart.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = heart.usdz; sourceTree = "<group>"; };
 		39B0F0102B910E7D00FB93D6 /* kidney.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = kidney.usdz; sourceTree = "<group>"; };
 		39B0F0122B91166F00FB93D6 /* muscle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = muscle.usdz; sourceTree = "<group>"; };
 		39B0F0142B9116E600FB93D6 /* nerve_cell.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = nerve_cell.scn; sourceTree = "<group>"; };
-		DCFFB2532B92567600A46BEF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		DCFFB2552B92570800A46BEF /* MenuOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,11 +164,11 @@
 		16D0203B2B8D0B0D00CBDDF4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				16D020472B8D134C00CBDDF4 /* BodyRow.swift */,
+				396A4A6D2B9646A90095B684 /* BodyRow.swift */,
+				396A4A6F2B9647C00095B684 /* MenuView.swift */,
 				16D020102B8D030700CBDDF4 /* desarrolloVisionApp.swift */,
 				16D020122B8D030700CBDDF4 /* ContentView.swift */,
-				DCFFB2532B92567600A46BEF /* MenuView.swift */,
-				39552C352B90147100656788 /* modelViewTest.swift */,
+				39552C352B90147100656788 /* SceneKitModelView.swift */,
 				392B4DB42B902531006914C8 /* systemsMenu3D.swift */,
 			);
 			path = Views;
@@ -176,7 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				16D0203F2B8D0B4000CBDDF4 /* BodySystem.swift */,
-				DCFFB2552B92570800A46BEF /* MenuOptions.swift */,
+				396A4A712B9648DC0095B684 /* MenuOptions.swift */,
 				16D0203E2B8D0B4000CBDDF4 /* ModelData.swift */,
 			);
 			path = Models;
@@ -199,6 +201,7 @@
 				39B0F0102B910E7D00FB93D6 /* kidney.usdz */,
 				39B0F00A2B910B3B00FB93D6 /* lungs.usdz */,
 				39B0F0052B9106B800FB93D6 /* bone.scn */,
+				396A4A732B964B6A0095B684 /* doctor.obj */,
 				39B0F0122B91166F00FB93D6 /* muscle.usdz */,
 			);
 			path = "3D Models";
@@ -315,6 +318,7 @@
 				39B0F00B2B910B3B00FB93D6 /* lungs.usdz in Resources */,
 				39B0F0132B91166F00FB93D6 /* muscle.usdz in Resources */,
 				16D020152B8D030800CBDDF4 /* Assets.xcassets in Resources */,
+				396A4A742B964B6A0095B684 /* doctor.obj in Resources */,
 				39B0F0152B9116E600FB93D6 /* nerve_cell.scn in Resources */,
 				16D020432B8D0B5100CBDDF4 /* bodySystemData.json in Resources */,
 				39B0F0062B9106B800FB93D6 /* bone.scn in Resources */,
@@ -343,14 +347,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D020132B8D030700CBDDF4 /* ContentView.swift in Sources */,
-				DCFFB2542B92567700A46BEF /* MenuView.swift in Sources */,
+				396A4A702B9647C10095B684 /* MenuView.swift in Sources */,
 				16D020112B8D030700CBDDF4 /* desarrolloVisionApp.swift in Sources */,
 				392B4DB52B902531006914C8 /* systemsMenu3D.swift in Sources */,
 				16D020402B8D0B4000CBDDF4 /* ModelData.swift in Sources */,
 				16D020412B8D0B4000CBDDF4 /* BodySystem.swift in Sources */,
-				16D020492B8D134C00CBDDF4 /* BodyRow.swift in Sources */,
-				39552C362B90147100656788 /* modelViewTest.swift in Sources */,
-				DCFFB2562B92570900A46BEF /* MenuOptions.swift in Sources */,
+				39552C362B90147100656788 /* SceneKitModelView.swift in Sources */,
+				396A4A6E2B9646A90095B684 /* BodyRow.swift in Sources */,
+				396A4A722B9648DC0095B684 /* MenuOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
