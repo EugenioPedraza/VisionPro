@@ -31,6 +31,9 @@
 		39B0F0132B91166F00FB93D6 /* muscle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 39B0F0122B91166F00FB93D6 /* muscle.usdz */; };
 		39B0F0152B9116E600FB93D6 /* nerve_cell.scn in Resources */ = {isa = PBXBuildFile; fileRef = 39B0F0142B9116E600FB93D6 /* nerve_cell.scn */; };
 		5BB80E512B964EC200D581B7 /* quizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB80E502B964EC200D581B7 /* quizView.swift */; };
+		5BB80E532B965C8400D581B7 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BB80E522B965C8400D581B7 /* quiz.json */; };
+		5BB80E552B965D1500D581B7 /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB80E542B965D1500D581B7 /* QuizData.swift */; };
+		5BB80E592B966AB800D581B7 /* optionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB80E582B966AB800D581B7 /* optionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,9 @@
 		39B0F0122B91166F00FB93D6 /* muscle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = muscle.usdz; sourceTree = "<group>"; };
 		39B0F0142B9116E600FB93D6 /* nerve_cell.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = nerve_cell.scn; sourceTree = "<group>"; };
 		5BB80E502B964EC200D581B7 /* quizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizView.swift; sourceTree = "<group>"; };
+		5BB80E522B965C8400D581B7 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
+		5BB80E542B965D1500D581B7 /* QuizData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		5BB80E582B966AB800D581B7 /* optionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +179,7 @@
 				39552C352B90147100656788 /* SceneKitModelView.swift */,
 				392B4DB42B902531006914C8 /* systemsMenu3D.swift */,
 				5BB80E502B964EC200D581B7 /* quizView.swift */,
+				5BB80E582B966AB800D581B7 /* optionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				16D0203F2B8D0B4000CBDDF4 /* BodySystem.swift */,
+				5BB80E542B965D1500D581B7 /* QuizData.swift */,
 				396A4A712B9648DC0095B684 /* MenuOptions.swift */,
 				16D0203E2B8D0B4000CBDDF4 /* ModelData.swift */,
 			);
@@ -190,6 +198,7 @@
 		16D0203D2B8D0B1C00CBDDF4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5BB80E522B965C8400D581B7 /* quiz.json */,
 				16D020422B8D0B5100CBDDF4 /* bodySystemData.json */,
 			);
 			path = Resources;
@@ -316,6 +325,7 @@
 			files = (
 				39508F942B8E60820082316F /* anatomyscene.usdz in Resources */,
 				39B0F0112B910E7D00FB93D6 /* kidney.usdz in Resources */,
+				5BB80E532B965C8400D581B7 /* quiz.json in Resources */,
 				16D020182B8D030800CBDDF4 /* Preview Assets.xcassets in Resources */,
 				39B0F00F2B910C2100FB93D6 /* heart.usdz in Resources */,
 				39B0F00B2B910B3B00FB93D6 /* lungs.usdz in Resources */,
@@ -352,10 +362,12 @@
 				16D020132B8D030700CBDDF4 /* ContentView.swift in Sources */,
 				396A4A702B9647C10095B684 /* MenuView.swift in Sources */,
 				16D020112B8D030700CBDDF4 /* desarrolloVisionApp.swift in Sources */,
+				5BB80E592B966AB800D581B7 /* optionView.swift in Sources */,
 				392B4DB52B902531006914C8 /* systemsMenu3D.swift in Sources */,
 				16D020402B8D0B4000CBDDF4 /* ModelData.swift in Sources */,
 				16D020412B8D0B4000CBDDF4 /* BodySystem.swift in Sources */,
 				39552C362B90147100656788 /* SceneKitModelView.swift in Sources */,
+				5BB80E552B965D1500D581B7 /* QuizData.swift in Sources */,
 				5BB80E512B964EC200D581B7 /* quizView.swift in Sources */,
 				396A4A6E2B9646A90095B684 /* BodyRow.swift in Sources */,
 				396A4A722B9648DC0095B684 /* MenuOptions.swift in Sources */,

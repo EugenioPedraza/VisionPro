@@ -31,7 +31,7 @@ struct MenuView: View {
                                 
                             }
                             if area == MenuOptions.quiz {
-                                
+                                quizView(quiz: arrQuiz[0])
                             }
                             
                             

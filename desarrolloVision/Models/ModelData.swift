@@ -10,6 +10,7 @@ import Foundation
 // Aqui se crea la variable "landmarks" en donde se carga la estructura Landmark con todos los datos ingresados del JSON ya en sus respectivas
 
 var arrBodySystems: [BodySystem] = load("bodySystemData.json")
+var arrQuiz : [QuizData] = load("quiz.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

@@ -1,0 +1,34 @@
+[
+    {
+        "Pregunta": "¿Ejemplo de pregunta?",
+        "id": 1,
+        "Opcion1": "Opcion 1",
+        "Opcion2": "Opcion 2",
+        "Opcion3": "Opcion 3",
+        "Opcion4": "Opcion 4"
+    },
+    {
+        "Pregunta": "¿Ejemplo de pregunta?",
+        "id": 2,
+        "Opcion1": "Opcion 1",
+        "Opcion2": "Opcion 2",
+        "Opcion3": "Opcion 3",
+        "Opcion4": "Opcion 4"
+    },
+    {
+        "Pregunta": "¿Ejemplo de pregunta?",
+        "id": 3,
+        "Opcion1": "Opcion 1",
+        "Opcion2": "Opcion 2",
+        "Opcion3": "Opcion 3",
+        "Opcion4": "Opcion 4"
+    },
+    {
+        "Pregunta": "¿Ejemplo de pregunta?",
+        "id": 4,
+        "Opcion1": "Opcion 1",
+        "Opcion2": "Opcion 2",
+        "Opcion3": "Opcion 3",
+        "Opcion4": "Opcion 4"
+    }
+]
